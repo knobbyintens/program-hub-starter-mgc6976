@@ -1,7 +1,7 @@
 title: "Program Hub"
 description: "Public hub for our certificate programs"
-url: ""
-baseurl: ""
-repository: ""
+url: "https://knobbyintens.github.io"
+baseurl: "/dac330-hub"
+repository: "knobbyintens/dac330-hub"
 
 markdown: kramdown
