@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav>
+      <a href="{{ '/courses/' | relative_url }}">Courses</a>
+      <a href="{{ '/news/' | relative_url }}">News</a>
+    </nav>
+  </header>
+  <main class="content">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <p>&copy; {{ site.time | date: "%Y" }} Program Office</p>
+  </footer>
+</body>
+</html>
