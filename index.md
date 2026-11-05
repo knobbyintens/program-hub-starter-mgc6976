@@ -3,10 +3,10 @@ layout: default
 title: Home
 ---
 
-# Program Hub
+# Data Analytics Certificate Program
 
-Welcome. Program information will be published here soon.
+Build job-ready analytics skills in twelve weeks through hands-on projects, live sessions, and portfolio reviews.
 
-## Latest news
+**Coordinator:** Sandra Miller
 
-<!-- Add the latest program announcement here -->
+Explore the [course catalogue]({{ '/courses/' | relative_url }}) and the latest [program news]({{ '/news/' | relative_url }}).
